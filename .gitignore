@@ -1,0 +1,48 @@
+env/
+.env
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.db
+*.sqlite3
+*.log
+# Node modules
+node_modules/
+
+# Build output
+dist/
+build/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor/IDE
+.vscode/
+.idea/
+
+# Python (since you have pyvenv.cfg)
+venv/
+__pycache__/
+*.pyc
+
+# Docker (optional, keep if needed)
+docker-compose.override.yml
+
+# Misc
+*.log
+
+frontend/node_modules/
+node_modules/
